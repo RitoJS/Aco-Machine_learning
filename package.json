@@ -1,0 +1,23 @@
+{
+  "name": "aco",
+  "version": "1.0.0",
+  "description": "API Ant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.epitech.eu:/sama_j/ACO"
+  },
+  "author": "Jordan Sama",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongoose": "^4.11.3"
+  }
+}

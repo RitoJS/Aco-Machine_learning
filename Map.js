@@ -1,3 +1,4 @@
+window.addEventListener('load', function() {
 
 
 class Map {
@@ -7,6 +8,7 @@ class Map {
 		this.width 	= width;
 	}
 
-	
-
 }
+var map = new Map(50, 60);
+console.log(".::", map);
+});
